@@ -1,6 +1,6 @@
 Name:           perl-Pod-Spell
 Version:        1.04
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        A formatter for spell-checking POD
 Group:          Development/Libraries
 License:        Artistic 2.0
@@ -62,6 +62,9 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-4
+- Mass rebuild 2013-12-27
+
 * Tue Jul 23 2013 Petr Pisar <ppisar@redhat.com> - 1.04-3
 - Do not use env in podspell shebang
 
